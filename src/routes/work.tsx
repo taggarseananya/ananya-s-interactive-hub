@@ -29,7 +29,7 @@ const filters = ["all", "research", "consulting", "venture", "leadership"] as co
 
 function WorkPage() {
   const [filter, setFilter] = useState<(typeof filters)[number]>("all");
-  const [activeSlug, setActiveSlug] = useState(roles[0].slug);
+  const [activeSlug, setActiveSlug] = useState<string>(roles[0]?.slug ?? "");
 
   const visible = roles.filter((r) => filter === "all" || r.category === filter);
   const active = roles.find((r) => r.slug === activeSlug) ?? visible[0];
