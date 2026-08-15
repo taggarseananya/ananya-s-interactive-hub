@@ -247,4 +247,5 @@ export const contact = {
   phone: "(479) 353-6473",
   location: "Ithaca, NY",
   linkedin: "https://www.linkedin.com/in/ananya-taggarse",
+  tiktok: "https://www.tiktok.com/@ananyat16",
 };
