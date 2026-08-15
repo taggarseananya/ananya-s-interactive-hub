@@ -72,30 +72,30 @@
 }
 
 :root {
-  --radius: 0.25rem;
-  --ink: oklch(0.14 0.006 60);
-  --cream: oklch(0.94 0.018 85);
-  --gold: oklch(0.82 0.09 78);
-  --rust: oklch(0.62 0.13 45);
-  --background: oklch(0.14 0.006 60);
-  --foreground: oklch(0.94 0.018 85);
-  --card: oklch(0.18 0.007 60);
-  --card-foreground: oklch(0.94 0.018 85);
-  --popover: oklch(0.18 0.007 60);
-  --popover-foreground: oklch(0.94 0.018 85);
-  --primary: oklch(0.82 0.09 78);
-  --primary-foreground: oklch(0.14 0.006 60);
-  --secondary: oklch(0.22 0.008 60);
-  --secondary-foreground: oklch(0.94 0.018 85);
-  --muted: oklch(0.22 0.008 60);
-  --muted-foreground: oklch(0.66 0.015 75);
-  --accent: oklch(0.62 0.13 45);
-  --accent-foreground: oklch(0.96 0.01 85);
+  --radius: 0.5rem;
+  --ink: oklch(0.26 0.055 330);
+  --cream: oklch(0.975 0.012 20);
+  --gold: oklch(0.63 0.145 355);
+  --rust: oklch(0.66 0.115 300);
+  --background: oklch(0.975 0.012 20);
+  --foreground: oklch(0.26 0.055 330);
+  --card: oklch(0.995 0.006 30);
+  --card-foreground: oklch(0.26 0.055 330);
+  --popover: oklch(0.995 0.006 30);
+  --popover-foreground: oklch(0.26 0.055 330);
+  --primary: oklch(0.63 0.145 355);
+  --primary-foreground: oklch(0.99 0.006 350);
+  --secondary: oklch(0.945 0.022 320);
+  --secondary-foreground: oklch(0.30 0.06 330);
+  --muted: oklch(0.955 0.016 330);
+  --muted-foreground: oklch(0.52 0.045 330);
+  --accent: oklch(0.66 0.115 300);
+  --accent-foreground: oklch(0.99 0.006 320);
   --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(0.28 0.008 60);
-  --input: oklch(0.28 0.008 60);
-  --ring: oklch(0.82 0.09 78);
+  --destructive-foreground: oklch(0.99 0.003 0);
+  --border: oklch(0.90 0.022 330);
+  --input: oklch(0.90 0.022 330);
+  --ring: oklch(0.63 0.145 355);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
@@ -159,7 +159,7 @@
   }
 
   ::selection {
-    background: var(--gold);
+    background: color-mix(in oklab, var(--gold) 28%, transparent);
     color: var(--ink);
   }
 
@@ -189,8 +189,8 @@
     position: absolute;
     inset: 0;
     pointer-events: none;
-    opacity: 0.05;
-    background-image: radial-gradient(var(--cream) 0.5px, transparent 0.5px);
+    opacity: 0.06;
+    background-image: radial-gradient(var(--ink) 0.5px, transparent 0.5px);
     background-size: 4px 4px;
   }
 }
