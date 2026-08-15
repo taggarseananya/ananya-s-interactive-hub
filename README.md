@@ -1,6 +1,6 @@
 # Ananya's Interactive Hub
 
-create a website using my resume and linked in www.linkedin.com/in/ananya-taggarse and this as inspo Hari Gridharan Hari Gridharan but also www.linkedin.com/in/ananya-taggarse make it interactive and having a lot of stuff on it
+create a website using my resume and linked in www.linkedin.com/in/ananya-taggarse 
 
 This project was built with [Lovable](https://lovable.dev).
 
