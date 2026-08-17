@@ -63,6 +63,14 @@ export function SiteFooter() {
             Email
           </a>
           <a
+            href={contact.tiktok}
+            target="_blank"
+            rel="noreferrer"
+            className="label-mono text-muted-foreground transition-colors hover:text-primary"
+          >
+            TikTok
+          </a>
+          <a
             href={contact.linkedin}
             target="_blank"
             rel="noreferrer"
