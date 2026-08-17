@@ -27,12 +27,12 @@ export function SiteNav() {
             </Link>
           ))}
           <a
-            href={contact.tiktok}
+            href={contact.linktree}
             target="_blank"
             rel="noreferrer"
             className="label-mono ml-2 hidden px-3 py-2 text-muted-foreground transition-colors hover:text-primary sm:block"
           >
-            TikTok ↗
+            Linktree ↗
           </a>
           <a
             href={contact.linkedin}
@@ -63,12 +63,12 @@ export function SiteFooter() {
             Email
           </a>
           <a
-            href={contact.tiktok}
+            href={contact.linktree}
             target="_blank"
             rel="noreferrer"
             className="label-mono text-muted-foreground transition-colors hover:text-primary"
           >
-            TikTok
+            Linktree
           </a>
           <a
             href={contact.linkedin}
