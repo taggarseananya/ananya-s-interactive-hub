@@ -73,14 +73,20 @@ function ContactPage() {
           </a>
 
           <a
-            href={contact.tiktok}
+            href={contact.linktree}
             target="_blank"
             rel="noreferrer"
-            className="group rounded-sm border border-border bg-card p-8 transition-colors hover:border-primary"
+            className="group rounded-sm border border-border bg-card p-8 transition-colors hover:border-primary md:col-span-2"
           >
-            <p className="label-mono text-muted-foreground">TikTok</p>
+            <p className="label-mono text-muted-foreground">
+              Linktree — content creation &amp; partnerships
+            </p>
             <p className="mt-3 text-2xl font-semibold tracking-tight group-hover:text-primary">
-              @ananyat16 ↗
+              linktr.ee/AnanyaTaggarse ↗
+            </p>
+            <p className="mt-3 max-w-xl text-sm leading-relaxed text-muted-foreground">
+              My TikTok and Instagram content, brand partnerships, the AmbitiousAI
+              pilot, and college application advising sessions all live here.
             </p>
           </a>
 

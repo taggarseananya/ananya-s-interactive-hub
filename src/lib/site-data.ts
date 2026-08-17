@@ -248,4 +248,5 @@ export const contact = {
   location: "Ithaca, NY",
   linkedin: "https://www.linkedin.com/in/ananya-taggarse",
   tiktok: "https://www.tiktok.com/@ananyat16",
+  linktree: "https://linktr.ee/AnanyaTaggarse",
 };
