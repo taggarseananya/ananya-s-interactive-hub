@@ -90,15 +90,6 @@ function ContactPage() {
             </p>
           </a>
 
-          <a
-            href={`tel:${contact.phone.replace(/[^0-9]/g, "")}`}
-            className="group rounded-sm border border-border bg-card p-8 transition-colors hover:border-primary"
-          >
-            <p className="label-mono text-muted-foreground">Phone</p>
-            <p className="mt-3 text-2xl font-semibold tracking-tight group-hover:text-primary">
-              {contact.phone}
-            </p>
-          </a>
 
           <a
             href={resume.url}

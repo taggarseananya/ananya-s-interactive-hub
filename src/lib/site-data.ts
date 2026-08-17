@@ -243,8 +243,7 @@ export const interests = [
 ];
 
 export const contact = {
-  email: "at2235@cornell.edu",
-  phone: "(479) 353-6473",
+  email: "taggarseananya@gmail.com",
   location: "Ithaca, NY",
   linkedin: "https://www.linkedin.com/in/ananya-taggarse",
   tiktok: "https://www.tiktok.com/@ananyat16",
