@@ -27,6 +27,14 @@ export function SiteNav() {
             </Link>
           ))}
           <a
+            href={contact.tiktok}
+            target="_blank"
+            rel="noreferrer"
+            className="label-mono ml-2 hidden px-3 py-2 text-muted-foreground transition-colors hover:text-primary sm:block"
+          >
+            TikTok ↗
+          </a>
+          <a
             href={contact.linkedin}
             target="_blank"
             rel="noreferrer"
@@ -53,6 +61,14 @@ export function SiteFooter() {
             className="label-mono text-muted-foreground transition-colors hover:text-primary"
           >
             Email
+          </a>
+          <a
+            href={contact.tiktok}
+            target="_blank"
+            rel="noreferrer"
+            className="label-mono text-muted-foreground transition-colors hover:text-primary"
+          >
+            TikTok
           </a>
           <a
             href={contact.linkedin}
